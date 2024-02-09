@@ -1,0 +1,126 @@
+body{
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.hero-section{
+  position: relative;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+}
+.hero-img{
+  padding-top: 20px;
+  height: 250px;
+  width: 1300px;
+}
+.featured{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  margin-bottom: 30px;
+  transition: text-decoration 1s;
+}
+.featured:hover{
+  text-decoration: underline;
+}
+.items-container{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.box-container{
+  width: 300px;
+  height: 300px;
+  flex-shrink: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 50px;
+}
+.box-container:hover{
+  border: 1px solid black;
+  box-shadow: 0 0 10px gray;
+}
+.box-img{
+  width: 200px;
+  height: 200px;
+}
+.box-container p{
+  font-weight: bold;
+}
+
+.footer-back{
+  height: 50px;
+  background-color: #354458;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 1s;
+}
+.footer-back:hover{
+  opacity: 0.9;
+}
+
+.final-footer{
+  height: 400px;
+  background-color:#243041;
+  display: flex;
+  align-items: start;
+  justify-content: center;
+  border-bottom: 1px solid rgb(131, 126, 126);
+}
+.div-footer{
+  margin-top: 30px;
+  margin-left: 100px;
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  line-height: 30px;
+  color: white;
+  cursor: pointer;
+}
+
+.last-footer{
+  background-color: #243041;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.last-footer .footer-amazon-logo{
+  width: 100px;
+  height: 50px;
+  margin-right: 80px;
+}
+.footer-button{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid rgb(151, 148, 148);
+  background-color: #243041;
+  color: rgb(202, 197, 197);
+  padding: 10px 15px;
+  margin-left: 8px;
+  font-size: 13px;
+  border-radius: 2px;
+}
+.footer-button i{
+  font-size: 16px;
+  padding:0;
+  margin-right: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer-button .last-footer-img{
+  width: 20px;
+  height: 15px;
+  margin-right: 8px;
+}
